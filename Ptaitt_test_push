@@ -1,1 +1,3 @@
 To find out what device the user is using you could use UIDevice class' method [[UIDevice currentDevice] model] which returns a string (ie "iPhone"), so you then can evaluate that string.
+
+https://devforums.apple.com/message/231933
