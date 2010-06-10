@@ -1,1 +1,1 @@
-This is a test text for the repository
+To find out what device the user is using you could use UIDevice class' method [[UIDevice currentDevice] model] which returns a string (ie "iPhone"), so you then can evaluate that string.
