@@ -1,0 +1,10 @@
+Set up an instance of the view you want to view. then do [self.view addsubview:[ ]];
+	
+	
+	DescriptionViewController *temp= [[DescriptionViewController alloc] initWithNibName:@"DescriptionViewController" bundle:nil];
+	self.TEMP=temp;
+	//EventDraftAppDelegate *del=[[UIApplication sharedApplication] delegate];
+	[self.view addSubview:[TEMP view]];
+	
+	
+[self.view removeFromSuperview];
